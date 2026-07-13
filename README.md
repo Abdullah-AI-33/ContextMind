@@ -22,12 +22,7 @@ I wanted to learn AI engineering by building something real end-to-end, rather t
 - [ ] Phase 8 — Multimodal Understanding
 - [ ] Phase 9 — Full Agentic RAG System
 
-## Structure
-contextmind/
-├── math-foundations/     # NumPy implementations of math concepts (Phase 1)
-├── ml-fundamentals/       # Coming in Phase 2
-├── notes/                 # Concept notes and learning logs
-└── README.md
+
 
 ## Follow along
 
