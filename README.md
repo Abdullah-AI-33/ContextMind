@@ -31,7 +31,7 @@ contextmind/
 
 ## Follow along
 
-I post progress updates and what I'm learning at each step on [LinkedIn](#) — link included in each post back to this repo.
+I post progress updates and what I'm learning at each step on https://www.linkedin.com/in/abdullah-sharhabeel-sahij-08a3b1367?utm_source=share_via&utm_content=profile&utm_medium=member_ios — link included in each post back to this repo.
 
 ## About me
 
