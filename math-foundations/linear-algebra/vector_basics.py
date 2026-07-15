@@ -5,7 +5,7 @@ import numpy as np
 #    return np.sqrt(v[0]**2 +v[1]**2)
 #print(magnitude(v))
 
-v_d = int(input('write the dimentions '))
+"""v_d = int(input('write the dimentions '))
 
 values = []
 
@@ -25,5 +25,15 @@ for g in range(v_d):
 def mag(v1):
     return np.sqrt(v_s)
 
-print(mag(v1))
+print(mag(v1))"""
+v = np.array([3,4])
+s = np.array([5,1])
 
+magnitude_of_v = np.linalg.norm(v)
+magnitude_of_s = np.linalg.norm(s)
+the_scalar_projection = np.matmul(v,s) / magnitude_of_v
+print(the_scalar_projection)
+the_angel  = np.arccos(np.matmul(v,s) /( magnitude_of_v * magnitude_of_s))
+the_vector_projection = (the_scalar_projection * v )/ magnitude_of_v
+
+print(the_vector_projection)
