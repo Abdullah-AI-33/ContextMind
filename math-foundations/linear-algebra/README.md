@@ -8,7 +8,7 @@ NumPy implementations of concepts from the Imperial College London
 - [x] Vectors and vector operations
 - [x] Dot product / scalar projection
 - [ ] Matrices and linear transformations
-- [ ] Change of basis
+- [x] Change of basis
 - [ ] Eigenvalues and eigenvectors
 
 ## Files
