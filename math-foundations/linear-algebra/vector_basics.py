@@ -26,7 +26,7 @@ def mag(v1):
     return np.sqrt(v_s)
 
 print(mag(v1))"""
-v = np.array([3,4])
+"""v = np.array([3,4])
 s = np.array([5,1])
 
 magnitude_of_v = np.linalg.norm(v)
@@ -36,4 +36,27 @@ print(the_scalar_projection)
 the_angel  = np.arccos(np.matmul(v,s) /( magnitude_of_v * magnitude_of_s))
 the_vector_projection = (the_scalar_projection * v )/ magnitude_of_v
 
-print(the_vector_projection)
+print(the_vector_projection)"""
+r = np.array([3,4])
+b1 = np.array([2,1])
+b2 = np.array([-2,4])
+verify = np.dot(b1,b2) 
+if verify == 0 :
+    print('the basis are orthagonal')
+else :
+    print('the basis are not orthagonal')
+
+projection_of_r_on_b1 = np.dot(r,b1)/np.dot(b1,b1)
+print(projection_of_r_on_b1)
+projection_of_r_on_b2 = np.dot(r,b2)/np.dot(b2,b2)
+print(projection_of_r_on_b2)
+
+r_b = [projection_of_r_on_b1 , projection_of_r_on_b2]
+print(r_b)
+
+verify_v = projection_of_r_on_b1 * b1
+print(verify_v)
+verify_v2 = projection_of_r_on_b2 * b2
+print(verify_v2)
+v_verify = verify_v + verify_v2
+print(v_verify)
